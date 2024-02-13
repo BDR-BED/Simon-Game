@@ -1,0 +1,115 @@
+body {
+  -webkit-user-select: none; /* Для веб-кіт браузерів (Chrome, Safari) */
+  -moz-user-select: none; /* Для Firefox */
+  -ms-user-select: none; /* Для Internet Explorer / Edge */
+  user-select: none;
+}
+.bllk {
+ 
+  font-size: 3rem; /* Розмір шрифту */
+  font-family: 'Press Start 2P', cursive; /* Вибір моноширинного шрифту */
+  
+  /* Великі літери */
+  /* Міжлітерний інтервал */
+  background-color: #000; /* Чорний фон */
+  color:#FEF2BF; /* Білий колір тексту */
+  padding:10.5px 7.5px 1.5px 13.5px; /* Отступи внутрішньої області кнопки */
+  margin-bottom: 5px;
+  border: 2px solid #FEF2BF; /* Біла облямівка */
+  cursor: pointer; /* Змінюється на вказівник при наведенні курсора */
+  transition: background-color 0.3s, color 0.3s; /* Плавні зміни фону та кольору тексту */
+}
+
+.bllk:hover {
+  background-color: #fff; /* Зміна фону при наведенні */
+  color: #000; /* Зміна кольору тексту при наведенні */
+}
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+.foot{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.1rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+@media(max-width:1103px){
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  
+  }
+}
+@media(max-width:600px){
+  .btn {
+    height: 120px;
+    width: 120px;
+    border: 9px solid black;
+  }
+}
+@media(max-width:450px){
+  .btn {
+    height:100px;
+    width:100px;
+    margin:5px;
+    border: 7px solid black;
+  }
+}
